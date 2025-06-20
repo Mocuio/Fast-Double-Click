@@ -29,3 +29,12 @@ Back-end: API responsável por receber os registros e gerenciar os dados no arqu
 
 💾 Persistência dos Dados
 Todos os registros de tempos são armazenados de forma permanente em um arquivo JSON, garantindo que as informações permaneçam disponíveis mesmo após reiniciar o servidor.
+
+
+Importante: Para que a aplicação funcione corretamente, é necessário que os dois projetos estejam rodando ao mesmo tempo:
+
+O back-end, responsável por armazenar e fornecer os dados.
+
+E o front-end, que é a interface onde você interage com os registros.
+
+Certifique-se de iniciar primeiro o back-end, e em seguida o front-end. Assim, a comunicação entre eles funcionará perfeitamente.

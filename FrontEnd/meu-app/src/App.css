@@ -1,0 +1,69 @@
+.main-button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 250%; /* 500% igual a 5rem */
+  font-family: 'Luminari, fantasy';
+  margin: 0;
+  padding: 0;
+}
+
+.go-next-page-button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem; /* 250% igual a 2.5rem */
+  font-family: 'Luminari, fantasy';
+  margin: 0;
+  padding: 0;
+}
+
+/* Botão "Next page" fixo no canto inferior direito */
+.go-to-listpage {
+  position: relative; 
+  bottom: -32vh;
+  right: -23vw;
+  width: clamp(120px, 15vw, 300px);
+  aspect-ratio: 15 / 3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1000; /* para ficar acima de tudo */
+  font-family: 'Luminari, fantasy';
+
+}
+
+/* Botão principal */
+.main-button {
+  width: clamp(150px, 20vw, 400px);
+  aspect-ratio: 15 / 3;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  min-height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Container principal ocupando toda a tela */
+.App-header {
+  height: 100vh;
+  width: 100vw;
+  background-color: #EAF1FD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px; /* respira melhor em telas pequenas */
+  box-sizing: border-box;
+}
+
+/* Centraliza texto dentro do container .App */
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
